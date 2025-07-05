@@ -7,6 +7,8 @@ const equal = document.querySelector('.button.equal');
 const dot = document.querySelector('.button.dot');
 const backspace = document.querySelector('.button.backspace');
 
+
+
 document.addEventListener('keydown', (e) => {
     let key = e.key
     console.log(key)
